@@ -1,0 +1,7 @@
+language: C
+install:
+script:
+  - ./configure; make test
+branches:
+  only:
+    - master
